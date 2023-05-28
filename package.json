@@ -1,0 +1,14 @@
+{
+  "name": "musobaqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "start": "node server.js", 
+    "dev": "nodemon server.mjs"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
