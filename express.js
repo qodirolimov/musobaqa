@@ -61,7 +61,7 @@ class Express {
       route = route.toLowerCase();
       callbacks[route] = callbacks[route] || {};
       callbacks[route]["GET"] = callbacks[route]?.GET || callback;
-      if(route.includes(":")) callbacks[route]["path"] = regExp(route);  // users/:id
+      if(route.includes(":")) callbacks[route]["path"] = regExp(route);
    }
 
    post(route, callback) {
